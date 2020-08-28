@@ -8,6 +8,11 @@ int main(int argc, char const *argv[])
     printf("Quelle est votre note du bac ? : \n");
     scanf("%d",&note);
 
+while( note < 10 || note >20)
+{
+     printf("Quelle est votre note du bac ? : \n");
+    scanf("%d",&note);
+}
 
     if(note < 10 )
     {
