@@ -9,10 +9,10 @@ int main(int argc, char const *argv[])
     int addition;
     int i,j;
     
-    printf("Entrer un entier positive ou nulle ( >=0 ) :");
+    printf("Entrer un entier positive ou nulle ( >=0 ) : ");
     scanf("%d",&entier1);
 
-    printf("Entrer un entier positive strictement ( > 0 ) :");
+    printf("Entrer un entier positive strictement ( > 0 ) : ");
     scanf("%d",&entier2);
 
     for (i = 0; i < 10; i++)
