@@ -12,7 +12,7 @@ int main(int argc, char const *argv[])
 
     for (int i = 0; i < 10; i++)
     {
-        tableau[i] = rand() % (MAX - MIN - 1) + 1;
+        tableau[i] = rand() % (MAX - MIN - 1) + (-50);
     }
     
     printf("---------+--------+--------+--------+--------+--------+--------+--------+--------+--------+\n");

@@ -8,33 +8,14 @@
 int main(int argc, char const *argv[])
 {
     int tableau[10];
-    int max = 0;
-    int indice_max;
-    int i;
+    int ind =10;
     srand(time(NULL));
 
-
-
-    for (i = 0; i < 10; i++)
+    for (int i = 0; i < 10; i++)
     {
-        
         tableau[i] = rand() % (MAX - MIN - 1) + (-50);
-        if (tableau[i] > max)
-        {
-            max = tableau[i];
-            indice_max = i;
-        }
-        
-
-        
-    }
-    for (int j = 0; j <= indice_max; j++)
-    {
-        printf("        ");
     }
     
-    printf("v\n");
-
     printf("---------+--------+--------+--------+--------+--------+--------+--------+--------+--------+\n");
     printf("|");
     for (int u = 0; u < 10; u++)
@@ -43,6 +24,15 @@ int main(int argc, char const *argv[])
     }
     printf("\n---------+--------+--------+--------+--------+--------+--------+--------+--------+--------+\n");
 
+
+     printf("---------+--------+--------+--------+--------+--------+--------+--------+--------+--------+\n");
+    printf("|");
+    for (int m = 0; m <10; m++)
+    {
+        ind--;
+        printf("%7d |",tableau[ind]);
+    }
+    printf("\n---------+--------+--------+--------+--------+--------+--------+--------+--------+--------+\n");
     
 
     return 0;
