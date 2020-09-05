@@ -1,0 +1,14 @@
+http://www.iut-fbleau.fr/sitebp/apl12/allocation/
+
+
+
+1-Singletons. Écrivez un programme qui reçoit une liste de réels et affiche uniquement les valeurs présentes une seule fois dans la liste.
+Le programme demandera d'abord à l'utilisateur combien de réels il souhaite rentrer, puis il demandera un à un tous les réels. Il affichera ensuite, sur une seule ligne, les valeurs qui n'ont pas été répétées.
+
+2-Palindromes. Écrivez un programme qui teste si les arguments passés sur sa ligne de commande sont des palindromes. 
+Vous vous appuierez sur la fonction suivante : char* inverse(const char* s);
+
+
+
+3-Précognition. Reprenez le premier exercice et faites-le marcher sans demander au préalable le nombre de réels. 
+L'utilisateur devra taper q pour quitter. 
