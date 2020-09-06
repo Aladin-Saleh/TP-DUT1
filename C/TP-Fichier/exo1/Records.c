@@ -12,7 +12,7 @@ int main(int argc, char const *argv[])
     if (fichier == NULL)
     {
         printf("Error : Impossible d'ouvrir le fichier !");
-        exit(0);
+        exit(1);
     }
     else
     {
@@ -22,7 +22,7 @@ int main(int argc, char const *argv[])
         {
            fread(&score,sizeof(int),1,fichier);
            fread(&buffer,sizeof(char),3,fichier);
-           printf("\n%d %s \n",score,buffer);
+           printf("\n%0.3d %s\n",score,buffer);
            score = 0;
         }
         
