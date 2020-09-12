@@ -1,0 +1,1 @@
+Ceci est un texte de test pour apprendre à utiliser write, read et open puis fork..
