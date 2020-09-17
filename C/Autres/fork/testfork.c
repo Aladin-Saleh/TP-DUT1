@@ -30,6 +30,7 @@ int main(int argc, char const *argv[])
 
 		printf("wait: %d\n", wait(NULL));//La valeur de retour de wait est -1 si il n'y a pas de fils, sinon c'est le PID du fils qui est renvoyé 
 		//wait() met le processus père (celui qui appelle) "en pause" tant que le processus fils n'est pas "fini"
+		//wait() n'attend pas un LES processus fils, mais UN processus fils.
 		printf("Le Procéssus fils est normalement terminer ! \n");//Cette ligne est executé après le processus fils
 	}
 
